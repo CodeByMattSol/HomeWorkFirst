@@ -2,10 +2,15 @@
 
 body {
     background-color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
 }
 
-span {
+button {
     font-family: 'Inter', sans-serif;
+}
+
+header {
+    border-bottom: 1px solid #b0b0b0;
 }
 
 .headerMain {
@@ -24,7 +29,7 @@ span {
     background-color: transparent;
     color: #FFFFFF;
     border: none;
-    padding: .5em 0px;
+    padding: .5em 0em;
     margin-right: 24px;
     cursor: pointer;
 }
@@ -51,7 +56,6 @@ span {
 }
 
 .headerAdv-title {
-    padding-inline: 0px;
     background-color: transparent;
     border: none;
     font-family: 'Inter', sans-serif;
